@@ -1,0 +1,90 @@
+*{
+    margin: 0
+    padding: 0
+}
+
+.container{
+    display: flex;
+    font-family: Roboto, sans-serif;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+img.banner{
+    width: 450px;
+    height: 420px;
+    padding-top:30px;
+}
+
+span{
+    color: rgba(247,125,69,255);
+}
+
+h1{
+    font-size: 75px;
+    text-align: center;
+}
+
+main{
+    width: 600px;
+    height: 570px;
+    justify-content: center;
+    margin: 50px;
+    padding-left: 115px;
+}
+
+main h2{
+    font-size: 37px;
+    width: 480px;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom:20px;
+    margin-top: 50px;
+}
+
+button.cadastrar-entidade, button.entidades-cadastradas{
+    width: 550px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.cadastrar-entidade{
+    background-color:rgba(86,156,175,255);
+}
+
+.entidades-cadastradas{
+    background-color: rgba(247,125,69,255);
+}
+
+p{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 18px;
+}
+
+a.registrar{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
